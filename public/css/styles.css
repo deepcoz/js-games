@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=VT323");
+
+::selection {color:#FFFFFF; background:transparent;}
+::-moz-selection {color:#FFFFFF; background:transparent;}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "VT323";
+}
+
+body {
+    background-color: #000000;
+}
+
+#menu{
+    display: block;
+    width: 340px;
+    padding-top: 95px;
+    padding-bottom: 95px;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #FFF;
+}
+
+#menu h2{
+    -webkit-animation: logo-ani 1000ms linear infinite;
+            animation: logo-ani 1000ms linear infinite;
+    margin-bottom: 30px;
+    
+}
+
+#menu a{
+    font-size: 30px;
+    display: block;
+}
+
+#menu a:hover {
+    cursor: pointer;
+}
+
+#menu a:hover::before{
+    content: ">";
+    margin-right: 10px;
+}
