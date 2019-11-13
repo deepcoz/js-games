@@ -1,0 +1,27 @@
+{
+  "name": "js-games",
+  "version": "1.0.0",
+  "description": "Javascript Games",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepcoz/js-games.git"
+  },
+  "keywords": [
+    "javascript",
+    "games"
+  ],
+  "author": "hojjatk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deepcoz/js-games/issues"
+  },
+  "homepage": "https://github.com/deepcoz/js-games#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
